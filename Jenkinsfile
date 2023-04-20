@@ -29,8 +29,8 @@ pipeline {
       sh "mvn clean verify sonar:sonar \
   -Dsonar.projectKey=team5codereview \
   -Dsonar.projectName='team5codereview' \
-  -Dsonar.host.url=http://ec2-107-22-47-64.compute-1.amazonaws.com:9000 \
-  -Dsonar.token=sqp_0e5ca3fb66d661c1efd895d8370236860af9bfb6"
+  -Dsonar.host.url=http://ec2-54-152-219-185.compute-1.amazonaws.com:9000 \
+  -Dsonar.token=sqp_6f122ddb3740139b0a690367fdff0775077b8cfc"
       }
     }
   }
